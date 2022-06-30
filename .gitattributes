@@ -1,0 +1,13 @@
+DT_generate/datasets/kg_embedding/RESCAL_entity_embedding.csv filter=lfs diff=lfs merge=lfs -text
+DT_generate/datasets/chemb_drug_selfies.csv filter=lfs diff=lfs merge=lfs -text
+DT_generate/result/models/Transport_seq.pt filter=lfs diff=lfs merge=lfs -text
+DT_generate/result/models/Transport_seq+kg.pt filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/drug_morganfp.txt filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/KG/KG_embedding/RESCAL_entity_embedding.csv filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/KG/Luteolin/Luteolin_kg.txt filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/KG/Luteolin/train.txt filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/KG/Luteolin/test.txt filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/KG/Luteolin/valid.txt filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/natural_product/Luteolin_RESCAL_entity.csv filter=lfs diff=lfs merge=lfs -text
+DT_predict/data/KG/dt_graph.txt filter=lfs diff=lfs merge=lfs -text
+DT_predict/model/all_pos_model.h5 filter=lfs diff=lfs merge=lfs -text

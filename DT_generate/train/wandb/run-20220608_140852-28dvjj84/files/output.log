@@ -1,0 +1,8 @@
+18060
+7740
+128
+data has 18060 smiles, 128 unique characters.
+data has 7740 smiles, 128 unique characters.
+
+
+epoch 1 iter 7: train loss 2.24751. lr 8.481293e-05:   1%|▏         | 8/565 [00:02<03:28,  2.67it/s]

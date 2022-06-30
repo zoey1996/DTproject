@@ -1,0 +1,6 @@
+52883
+13221
+152
+data has 52883 smiles, 152 unique characters.
+data has 13221 smiles, 152 unique characters.
+epoch 1 iter 0: train loss 5.67394. lr 3.624079e-06:   0%|          | 1/1653 [00:00<13:38,  2.02it/s]

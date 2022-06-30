@@ -1,0 +1,20 @@
+{
+    "os": "Linux-2.6.32-754.11.1.el6.x86_64-x86_64-with-centos-6.10-Final",
+    "python": "3.6.13",
+    "heartbeatAt": "2022-06-08T06:18:25.027988",
+    "startedAt": "2022-06-08T06:18:21.663970",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": "10.0.130",
+    "args": [
+        "-f",
+        "/home2/cxh/.local/share/jupyter/runtime/kernel-24340e65-10ae-4a1a-a1ec-da8d74551e70.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "hzauhpc",
+    "username": "CXH",
+    "executable": "/home2/cxh/anaconda3/envs/DTproject/bin/python"
+}

@@ -1,0 +1,166 @@
+2022-06-08 15:01:06,627 INFO    MainThread:16723 [internal.py:wandb_internal():95] W&B internal server running at pid: 16723, started at: 2022-06-08 15:01:06.627115
+2022-06-08 15:01:06,629 INFO    WriterThread:16723 [datastore.py:open_for_write():77] open: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/run-9bl8ychl.wandb
+2022-06-08 15:01:06,632 DEBUG   SenderThread:16723 [sender.py:send():235] send: header
+2022-06-08 15:01:06,632 DEBUG   SenderThread:16723 [sender.py:send():235] send: run
+2022-06-08 15:01:07,065 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: check_version
+2022-06-08 15:01:07,065 INFO    SenderThread:16723 [dir_watcher.py:__init__():169] watching files in: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files
+2022-06-08 15:01:07,066 INFO    SenderThread:16723 [sender.py:_start_run_threads():815] run started: 9bl8ychl with start time 1654671665
+2022-06-08 15:01:07,067 DEBUG   SenderThread:16723 [sender.py:send():235] send: summary
+2022-06-08 15:01:07,067 INFO    SenderThread:16723 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-06-08 15:01:07,067 DEBUG   SenderThread:16723 [sender.py:send_request():249] send_request: check_version
+2022-06-08 15:01:07,405 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: run_start
+2022-06-08 15:01:08,068 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/wandb-summary.json
+2022-06-08 15:01:08,948 DEBUG   HandlerThread:16723 [meta.py:__init__():37] meta init
+2022-06-08 15:01:08,948 DEBUG   HandlerThread:16723 [meta.py:__init__():51] meta init done
+2022-06-08 15:01:08,948 DEBUG   HandlerThread:16723 [meta.py:probe():211] probe
+2022-06-08 15:01:08,955 DEBUG   HandlerThread:16723 [git.py:repo():33] git repository is invalid
+2022-06-08 15:01:08,956 DEBUG   HandlerThread:16723 [meta.py:_save_pip():55] save pip
+2022-06-08 15:01:08,956 DEBUG   HandlerThread:16723 [meta.py:_save_pip():69] save pip done
+2022-06-08 15:01:08,957 DEBUG   HandlerThread:16723 [meta.py:_save_conda():76] save conda
+2022-06-08 15:01:09,067 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/requirements.txt
+2022-06-08 15:01:09,070 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/conda-environment.yaml
+2022-06-08 15:01:12,406 DEBUG   HandlerThread:16723 [meta.py:_save_conda():86] save conda done
+2022-06-08 15:01:12,407 DEBUG   HandlerThread:16723 [meta.py:probe():249] probe done
+2022-06-08 15:01:12,410 DEBUG   SenderThread:16723 [sender.py:send():235] send: files
+2022-06-08 15:01:12,410 INFO    SenderThread:16723 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-06-08 15:01:12,427 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 15:01:12,427 DEBUG   SenderThread:16723 [sender.py:send_request():249] send_request: stop_status
+2022-06-08 15:01:12,435 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:12,435 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:12,472 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:12,473 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:12,589 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:12,589 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:12,641 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:12,641 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:12,641 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:12,641 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:12,697 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:12,698 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:12,732 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:12,732 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:12,817 DEBUG   SenderThread:16723 [sender.py:send():235] send: telemetry
+2022-06-08 15:01:12,818 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:12,819 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:12,820 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:12,860 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:12,860 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:12,861 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:12,867 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:12,867 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:12,921 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:12,921 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:12,921 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:13,014 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:13,014 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:13,068 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/conda-environment.yaml
+2022-06-08 15:01:13,069 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/wandb-metadata.json
+2022-06-08 15:01:13,069 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log
+2022-06-08 15:01:13,084 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:13,085 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:13,086 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:13,125 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:13,125 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:13,250 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:13,250 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:13,251 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:13,308 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:13,309 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:13,411 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:13,411 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:13,412 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:13,575 INFO    Thread-11 :16723 [upload_job.py:push():137] Uploaded file /tmp/tmp611z077rwandb/2h9942xe-wandb-metadata.json
+2022-06-08 15:01:14,346 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:14,346 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:14,480 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:14,480 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:14,480 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:14,480 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:14,540 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:14,540 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:14,541 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:14,541 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:14,542 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:14,599 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:14,600 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:14,600 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:14,601 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:15,069 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log
+2022-06-08 15:01:17,070 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log
+2022-06-08 15:01:18,763 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:18,763 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:18,831 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:18,831 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:18,831 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:18,831 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:18,896 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:18,896 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:18,897 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:18,897 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:18,899 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:18,966 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:18,966 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:18,967 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:18,968 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:19,034 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:19,034 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:19,130 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:19,130 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:19,131 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:19,179 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:19,179 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:19,295 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:19,295 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:19,296 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:19,393 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:19,393 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:19,465 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:20,141 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:20,141 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:20,141 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:20,141 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:20,207 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:21,072 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log
+2022-06-08 15:01:25,027 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:25,027 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:25,028 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:25,028 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:25,098 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:25,274 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:25,274 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:27,819 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 15:01:27,819 DEBUG   SenderThread:16723 [sender.py:send_request():249] send_request: stop_status
+2022-06-08 15:01:31,180 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:31,180 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:31,229 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: resume
+2022-06-08 15:01:31,229 INFO    HandlerThread:16723 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-06-08 15:01:31,229 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:31,926 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: pause
+2022-06-08 15:01:31,926 INFO    HandlerThread:16723 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-06-08 15:01:32,003 DEBUG   SenderThread:16723 [sender.py:send():235] send: stats
+2022-06-08 15:01:33,076 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log
+2022-06-08 15:01:38,077 INFO    Thread-7  :16723 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/config.yaml
+2022-06-08 15:01:43,249 DEBUG   HandlerThread:16723 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 15:01:43,249 DEBUG   SenderThread:16723 [sender.py:send_request():249] send_request: stop_status
+2022-06-08 15:01:55,449 WARNING MainThread:16723 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-06-08 15:01:56,450 WARNING MainThread:16723 [internal.py:is_dead():388] Internal process exiting, parent pid 15852 disappeared
+2022-06-08 15:01:56,450 ERROR   MainThread:16723 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-06-08 15:01:56,469 INFO    WriterThread:16723 [datastore.py:close():281] close: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/run-9bl8ychl.wandb
+2022-06-08 15:01:56,904 INFO    SenderThread:16723 [sender.py:finish():1078] shutting down sender
+2022-06-08 15:01:56,904 INFO    SenderThread:16723 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-06-08 15:01:56,908 INFO    HandlerThread:16723 [handler.py:finish():778] shutting down handler
+2022-06-08 15:01:57,080 INFO    SenderThread:16723 [dir_watcher.py:finish():313] scan: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files
+2022-06-08 15:01:57,080 INFO    SenderThread:16723 [dir_watcher.py:finish():327] scan save: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/wandb-metadata.json wandb-metadata.json
+2022-06-08 15:01:57,080 INFO    SenderThread:16723 [dir_watcher.py:finish():327] scan save: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/requirements.txt requirements.txt
+2022-06-08 15:01:57,080 INFO    SenderThread:16723 [dir_watcher.py:finish():327] scan save: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log output.log
+2022-06-08 15:01:57,081 INFO    SenderThread:16723 [dir_watcher.py:finish():327] scan save: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/conda-environment.yaml conda-environment.yaml
+2022-06-08 15:01:57,085 INFO    SenderThread:16723 [dir_watcher.py:finish():327] scan save: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/wandb-summary.json wandb-summary.json
+2022-06-08 15:01:57,089 INFO    SenderThread:16723 [dir_watcher.py:finish():327] scan save: /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/config.yaml config.yaml
+2022-06-08 15:01:57,093 INFO    SenderThread:16723 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-08 15:01:57,097 INFO    SenderThread:16723 [file_pusher.py:join():150] waiting for file pusher
+2022-06-08 15:01:58,062 INFO    Thread-32 :16723 [upload_job.py:push():137] Uploaded file /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/requirements.txt
+2022-06-08 15:01:58,076 INFO    Thread-34 :16723 [upload_job.py:push():137] Uploaded file /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/conda-environment.yaml
+2022-06-08 15:01:58,079 INFO    Thread-36 :16723 [upload_job.py:push():137] Uploaded file /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/config.yaml
+2022-06-08 15:01:58,095 INFO    Thread-33 :16723 [upload_job.py:push():137] Uploaded file /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/output.log
+2022-06-08 15:01:58,119 INFO    Thread-35 :16723 [upload_job.py:push():137] Uploaded file /home2/cxh/DTproject/DT_generate/train/wandb/run-20220608_150105-9bl8ychl/files/wandb-summary.json
+2022-06-08 15:01:58,855 INFO    MainThread:16723 [internal.py:handle_exit():82] Internal process exited
