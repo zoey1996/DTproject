@@ -1,7 +1,7 @@
 # DTproject
 The code implementation about the article "Transporter knowledge graph construction and its application in drug development"
 
-"""The code of this project is written based on https://github.com/luoyunan/DTINet and https://github.com/devalab/molgpt, and I would like to express my heartfelt thanks for their open source code!"""
+"""The code of this project is written based on https://zenodo.org/record/5500305#.YzqEk3ZBy3A and https://github.com/devalab/molgpt, and I would like to express my heartfelt thanks for their open source code!"""
 
 1. Environment configuration
 
